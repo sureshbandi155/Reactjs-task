@@ -8,7 +8,7 @@ class Resources extends Component {
         dummyData: [
             {
                 id: 1,
-                heading: 'Resource Heading',
+                heading: 'Resource Heading1',
                 para: 'First I liked the template pack that we chose. Second, we needed hours beyond what was offered with our purchase.',
                 img: 'assets/Images/Book_1.png',
                 img1: 'assets/Images/Down_arrow.svg',

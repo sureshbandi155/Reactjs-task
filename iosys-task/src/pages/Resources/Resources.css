@@ -22,3 +22,9 @@
     margin-top: 214px;
 
 }
+@media(max-width: 767px){
+    .resources .wrapper{
+        margin-top: 271px;
+    
+    } 
+}
