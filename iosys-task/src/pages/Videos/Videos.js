@@ -9,7 +9,7 @@ const videos = () => {
            <Header />
            <div className="videos">
            <div className="wrapper">
-            <p>Hay am from videos Component</p>
+            <p>Hay am from Videos Component</p>
         </div>
            </div>
        </div>

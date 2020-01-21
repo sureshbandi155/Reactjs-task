@@ -10,65 +10,111 @@ class Resources extends Component {
                 id: 1,
                 heading: 'Resource Heading',
                 para: 'First I liked the template pack that we chose. Second, we needed hours beyond what was offered with our purchase.',
-                img: 'assets/Images/263X348.png',
+                img: 'assets/Images/Book_1.png',
                 img1: 'assets/Images/Down_arrow.svg',
                 img2: 'assets/Images/Video_btn.svg',
-                link: 'https://www.google.com/'
+                link: 'https://www.google.com/',
+                popup: 'assets/Images/Book_1.png',
+                height: '278px',
+                width: '198px'
             },
             {
                 id: 2,
                 heading: 'Resource Heading2',
                 para: 'First I liked the template pack that we chose. Second, we needed hours beyond what was offered with our purchase.',
-                img: 'assets/Images/video_1.png',
+                img: 'assets/Images/Book_2.png',
                 img1: 'assets/Images/Down_arrow.svg',
                 img2: 'assets/Images/Video_btn.svg',
-                link: 'https://www.google.com/'
+                link: 'https://www.google.com/',
+                popup: 'assets/Images/Book_2.png',
+                height: '278px',
+                width: '198px'
             },
             {
                 id: 3,
                 heading: 'Resource Heading3',
                 para: 'First I liked the template pack that we chose. Second, we needed hours beyond what was offered with our purchase.',
-                img: 'assets/Images/263X348.png',
+                img: 'assets/Images/Book_2.png',
                 img1: 'assets/Images/Down_arrow.svg',
                 img2: 'assets/Images/Video_btn.svg',
-                link: 'https://www.google.com/'
+                link: 'https://www.google.com/',
+                popup: 'assets/Images/Book_2.png',
+                height: '278px',
+                width: '198px'
             },
             {
                 id: 4,
                 heading: 'Resource Heading4',
                 para: 'First I liked the template pack that we chose. Second, we needed hours beyond what was offered with our purchase.',
-                img: 'assets/Images/263X348.png',
+                img: 'assets/Images/Book_1.png',
                 img1: 'assets/Images/Down_arrow.svg',
                 img2: 'assets/Images/Video_btn.svg',
-                link: 'https://www.google.com/'
+                link: 'https://www.google.com/',
+                popup: 'assets/Images/Book_1.png',
+                height: '278px',
+                width: '198px'
             },
             {
                 id: 5,
                 heading: 'Resource Heading5',
                 para: 'First I liked the template pack that we chose. Second, we needed hours beyond what was offered with our purchase.',
-                img: 'assets/Images/263X348.png',
+                img: 'assets/Images/Book_1.png',
                 img1: 'assets/Images/Down_arrow.svg',
                 img2: 'assets/Images/Video_btn.svg',
-                link: 'https://www.google.com/'
+                link: 'https://www.google.com/',
+                popup: 'assets/Images/Book_1.png',
+                height: '278px',
+                width: '198px'
             },
             {
                 id: 6,
                 heading: 'Resource Heading6',
                 para: 'First I liked the template pack that we chose. Second, we needed hours beyond what was offered with our purchase.',
-                img: 'assets/Images/263X348.png',
+                img: 'assets/Images/Book_2.png',
                 img1: 'assets/Images/Down_arrow.svg',
                 img2: 'assets/Images/Video_btn.svg',
-                link: 'https://www.google.com/'
+                link: 'https://www.google.com/',
+                popup: 'assets/Images/Book_2.png',
+                height: '278px',
+                width: '198px'
             },
             {
                 id: 7,
                 heading: 'Resource Heading7',
-                para: 'First I liked the template pack that we chose. Second, we needed hours beyond what was offered with our purchase.',
-                img: 'assets/Images/Book_1.svg',
+                para: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ',
+                img: 'assets/Images/Video.png',
                 img1: 'assets/Images/Down_arrow.svg',
                 img2: 'assets/Images/Video_btn.svg',
-                link: 'https://www.google.com/'
+                link: 'https://www.google.com/',
+                popup: 'https://youtu.be/eofpZPRUnP8',
+                height: '500px',
+                width: '500px'
+            },
+            {
+                id: 8,
+                heading: 'Resource Heading8',
+                para: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ',
+                img: 'assets/Images/Video_1.png',
+                img1: 'assets/Images/Down_arrow.svg',
+                img2: 'assets/Images/Video_btn.svg',
+                link: 'https://www.google.com/',
+                popup: 'https://youtu.be/eofpZPRUnP8',
+                height: '500px',
+                width: '500px'
+            },
+            {
+                id: 8,
+                heading: 'Resource Heading9',
+                para: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. ',
+                img: 'assets/Images/Video.png',
+                img1: 'assets/Images/Down_arrow.svg',
+                img2: 'assets/Images/Video_btn.svg',
+                link: 'https://www.google.com/',
+                popup: 'https://youtu.be/eofpZPRUnP8',
+                height: '500px',
+                width: '500px'
             }
+
 
         ],
         searchValue: ''
@@ -91,8 +137,11 @@ class Resources extends Component {
                     return <Post key={index}
                         heading={data.heading}
                         para={data.para}
-                        popup={data.img}
-                        btn={data.img1} />
+                        popup={data.popup}
+                        img={data.img}
+                        btn={data.img1}
+                        height={data.height}
+                        width={data.width} />
                 })
                 }
             </div>

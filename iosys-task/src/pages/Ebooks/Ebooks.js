@@ -9,7 +9,7 @@ const ebooks = () => {
             <Header />
             <div className="ebook">
             <div className="wrapper">
-            <p>Hay am from ebooks Component</p>
+            <p>Hay am from Ebooks Component</p>
         </div>
             </div>
         </div>

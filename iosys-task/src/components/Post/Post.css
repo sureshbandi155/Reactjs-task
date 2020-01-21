@@ -19,3 +19,9 @@
     position: relative;
     top: -13px;
 }
+@media(max-width: 767px){
+  .post{
+    flex-basis: 100%;
+    margin-bottom: 50px;
+  }
+}

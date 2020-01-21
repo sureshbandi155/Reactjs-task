@@ -7,10 +7,7 @@
     width: 100%;
     z-index: 2;
 }
-.header .wrapper{
-    display: flex;
-    justify-content: space-between;
-}
+
 .header ul li{
     display: inline-block;
     padding: 0 22px;
@@ -33,4 +30,32 @@
     border: 0;
     width: 331px;
     padding: 15px;
+    position: relative;
+}
+.header .left-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .right-col input::before{
+    font-family: "Font Awesome 5 Free";
+     font-weight: 900;
+      content: "\f002";
+  }
+@media(min-width: 651px){
+    .header .wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media(max-width: 650px){
+    .header ul li {
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+    .header .right-col{
+    text-align: center;
+    padding-top: 12px;
+    }
 }
