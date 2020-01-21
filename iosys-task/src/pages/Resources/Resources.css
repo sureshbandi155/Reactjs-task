@@ -1,0 +1,24 @@
+.resources-container{
+    background:#ffffff url("../../pentagon.png") no-repeat top center ;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.two-col-outer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.error-msg{
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+}
+.resources .wrapper{
+    margin-top: 214px;
+
+}

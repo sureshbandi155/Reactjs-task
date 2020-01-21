@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="263px" height="348px" viewBox="0 0 263 348" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 53.1 (72631) - https://sketchapp.com -->
+    <title>60297C15-8175-4715-A12B-F884F82E8219</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-63.1%" y="-43.9%" width="226.2%" height="187.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="30" dy="22" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.193373033 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="1.8189894e-12" y="0" width="195" height="280"></rect>
+        <text id="text-4" font-family="Moderat-Bold, Moderat" font-size="42" font-weight="bold" letter-spacing="-1.252525" fill="#4842B7">
+            <tspan x="64.4623125" y="46">Ebook</tspan>
+        </text>
+        <filter x="-6.0%" y="-10.0%" width="112.1%" height="128.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.360221809 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="2.9296875%" y1="44.0324639%" x2="100%" y2="44.0324639%" id="linearGradient-6">
+            <stop stop-color="#000000" stop-opacity="0.054878715" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.176054414" offset="44.3332981%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Resource" transform="translate(-1011.000000, -1403.000000)">
+            <g id="Group-15" transform="translate(228.000000, 764.000000)">
+                <g id="Group-6" transform="translate(631.000000, 651.000000)">
+                    <g id="Group-5">
+                        <g id="Group-31" filter="url(#filter-1)" transform="translate(156.000000, 0.000000)">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Rectangle" fill="#4842B7" xlink:href="#path-2"></use>
+                            <text id="Your-Ebook-Name" mask="url(#mask-3)" font-family="Moderat-Bold, Moderat" font-size="18" font-weight="bold" line-spacing="20" letter-spacing="-1.024793" fill="#83FE85">
+                                <tspan x="25" y="213">Your Ebook Name</tspan>
+                            </text>
+                            <text id="First-I-liked-the-te" mask="url(#mask-3)" font-family="ProximaNova-Regular, Proxima Nova" font-size="6" font-weight="normal" line-spacing="9" letter-spacing="0.007894737" fill="#FFFFFF">
+                                <tspan x="26" y="230">First I liked the template pack that we chose. </tspan>
+                                <tspan x="26" y="239">Second, we needed hours beyond what was </tspan>
+                                <tspan x="26" y="248">offered with our purchase.</tspan>
+                            </text>
+                            <text id="Ebook" mask="url(#mask-3)" font-family="Moderat-Bold, Moderat" font-size="42" font-weight="bold" letter-spacing="-1.252525" fill="#091246">
+                                <tspan x="68.4623125" y="42">Ebook</tspan>
+                            </text>
+                            <path d="M-3.12638804e-13,-3.55271368e-13 L1.43892884e-12,70 C130,138.335659 195,172.503488 195,172.503488 C195,172.503488 195,115.002326 195,-3.55271368e-13 L-3.12638804e-13,-3.55271368e-13 Z" id="Path-14" fill="#83FE85" mask="url(#mask-3)"></path>
+                            <g id="Ebook" mask="url(#mask-3)" fill="#4842B7" fill-opacity="1">
+                                <use filter="url(#filter-5)" xlink:href="#text-4"></use>
+                                <use xlink:href="#text-4"></use>
+                            </g>
+                            <rect id="Rectangle" fill="url(#linearGradient-6)" mask="url(#mask-3)" x="1.8189894e-12" y="0" width="11" height="280"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+.post{
+  flex-basis: 44.6%;
+  margin-bottom: 196px;
+}
+.post .text-sec{
+    border-radius: 4px;
+  box-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  padding: 86px  46px 29px 54px;
+}
+.post .img-sec img{
+    margin: 0 auto -54px;
+    display: block;
+    box-shadow: 30px 22px 34px 0 rgba(0, 0, 0, 0.19);
+}
+.post .icon{
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -13px;
+}
